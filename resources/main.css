@@ -1,14 +1,79 @@
+
+html {
+    box-sizing: border-box;
+}
+
 body {
     width: 100%;
     background-color: black;
+    font-family: Helvetica;
+    font-style: 22px;
+    color: seashell;
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
 }
 
 /*-------Header Styles-------*/
+
+header {
+    display: flex;
+    width: 100%;
+    border-bottom: 1px solid #555555;
+    z-index: 1;
+    position: fixed;
+    background-color: black;
+}
+
+.nav-header {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+}
+
+#header-logo img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+ul li {
+    margin: 0 15px;
+}
+
+/* ----------End of Header-------------------- */
+
 
 
 
 
   /* -------Body Styles------- */
+
+.container-mission {
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    background-image: url("./images/mission-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission-title {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+}
+
+
 
 
 
