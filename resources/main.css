@@ -126,9 +126,29 @@ ul li {
 
   /* -----End of Tea of Month Stles----- */
 
-  
+
+
+
   /* -------Location Styles------- */
 
+.container-locations {
+    background-image: url("./images/locations-background.jpg");
+    background-size: cover;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 500px;
+    padding-top: 50px;
+}
 
+.location-wrap {
+    display: flex;
+}
+
+.location {
+    width: 300px;
+    margin: 15px 20px 0 20px;
+}
 
   /*-------Footer Styles------- */
