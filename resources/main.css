@@ -96,17 +96,37 @@ ul li {
     text-align: center;
 }
 
+.menu-container {
+    width: 1000px;
+}
+
 .row1 {
     display: flex;
+    justify-content: center;
 }
 
 .menu-item img {
     width: 300px;
     height: 200px;
 }
+
+.menu-item h4 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item {
+    margin: 0 10px;
+}
+
+  /* -----End of Tea of Month Stles----- */
+
   
-
-
   /* -------Location Styles------- */
 
 
