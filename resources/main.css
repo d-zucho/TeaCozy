@@ -7,7 +7,7 @@ body {
     width: 100%;
     background-color: black;
     font-family: Helvetica;
-    font-style: 22px;
+    font-size: 22px;
     color: seashell;
     opacity: 0.9;
     display: flex;
@@ -135,6 +135,7 @@ ul li {
     background-image: url("./images/locations-background.jpg");
     background-size: cover;;
     display: flex;
+    flex-basis: 100%;
     justify-content: center;
     align-items: center;
     width: 1200px;
@@ -142,13 +143,26 @@ ul li {
     padding-top: 50px;
 }
 
+.location-section h2 {
+    text-align: center;
+    margin: 0;
+}
+
 .location-wrap {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .location {
     width: 300px;
+    height: 300px;
     margin: 15px 20px 0 20px;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
 }
 
   /*-------Footer Styles------- */
