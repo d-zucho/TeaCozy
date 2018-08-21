@@ -54,6 +54,15 @@ ul li {
     margin: 0 15px;
 }
 
+ul li a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+ul li a:hover {
+    font-size: 25px;
+    color: lightseagreen; 
+}
 /* ----------End of Header-------------------- */
 
 
