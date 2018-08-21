@@ -166,3 +166,22 @@ ul li {
 }
 
   /*-------Footer Styles------- */
+
+
+  .contact-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      margin: 0;
+      text-align: center;
+  }
+
+.contact-info h2,
+.contact-info h5 {
+    margin: 10px 0;
+}
+
+.copyright {
+    margin-left: 20px;
+}
